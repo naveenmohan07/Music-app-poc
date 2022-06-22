@@ -1,0 +1,831 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41DFAB4528634DFA00650CD1 /* Music-app-poc WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 41DFAB4428634DFA00650CD1 /* Music-app-poc WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		41DFAB4A28634E0800650CD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41DFAB4928634E0800650CD1 /* Assets.xcassets */; };
+		41DFAB5028634E0900650CD1 /* Music-app-poc WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 41DFAB4F28634E0900650CD1 /* Music-app-poc WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		41DFAB5528634E0900650CD1 /* Music_app_pocApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DFAB5428634E0900650CD1 /* Music_app_pocApp.swift */; };
+		41DFAB5728634E0900650CD1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DFAB5628634E0900650CD1 /* ContentView.swift */; };
+		41DFAB5928634E0900650CD1 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DFAB5828634E0900650CD1 /* NotificationController.swift */; };
+		41DFAB5B28634E0900650CD1 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DFAB5A28634E0900650CD1 /* NotificationView.swift */; };
+		41DFAB5D28634E0900650CD1 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DFAB5C28634E0900650CD1 /* ComplicationController.swift */; };
+		41DFAB5F28634E1300650CD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41DFAB5E28634E1300650CD1 /* Assets.xcassets */; };
+		41DFAB6228634E1300650CD1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41DFAB6128634E1300650CD1 /* Preview Assets.xcassets */; };
+		41DFAB6E28634E1300650CD1 /* Music_app_pocTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DFAB6D28634E1300650CD1 /* Music_app_pocTests.swift */; };
+		41DFAB7828634E1300650CD1 /* Music_app_pocUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DFAB7728634E1300650CD1 /* Music_app_pocUITests.swift */; };
+		41DFAB7A28634E1300650CD1 /* Music_app_pocUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DFAB7928634E1300650CD1 /* Music_app_pocUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41DFAB4628634DFA00650CD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41DFAB3A28634DF900650CD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41DFAB4328634DFA00650CD1;
+			remoteInfo = "Music-app-poc WatchKit App";
+		};
+		41DFAB5128634E0900650CD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41DFAB3A28634DF900650CD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41DFAB4E28634E0900650CD1;
+			remoteInfo = "Music-app-poc WatchKit Extension";
+		};
+		41DFAB6A28634E1300650CD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41DFAB3A28634DF900650CD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41DFAB4E28634E0900650CD1;
+			remoteInfo = "Music-app-poc WatchKit Extension";
+		};
+		41DFAB7428634E1300650CD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41DFAB3A28634DF900650CD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41DFAB4328634DFA00650CD1;
+			remoteInfo = "Music-app-poc WatchKit App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		41DFAB8028634E1300650CD1 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				41DFAB5028634E0900650CD1 /* Music-app-poc WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41DFAB8428634E1300650CD1 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				41DFAB4528634DFA00650CD1 /* Music-app-poc WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		41DFAB4028634DF900650CD1 /* Music-app-poc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Music-app-poc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41DFAB4428634DFA00650CD1 /* Music-app-poc WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Music-app-poc WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41DFAB4928634E0800650CD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41DFAB4F28634E0900650CD1 /* Music-app-poc WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Music-app-poc WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41DFAB5428634E0900650CD1 /* Music_app_pocApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music_app_pocApp.swift; sourceTree = "<group>"; };
+		41DFAB5628634E0900650CD1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		41DFAB5828634E0900650CD1 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		41DFAB5A28634E0900650CD1 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		41DFAB5C28634E0900650CD1 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		41DFAB5E28634E1300650CD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41DFAB6128634E1300650CD1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		41DFAB6328634E1300650CD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41DFAB6428634E1300650CD1 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		41DFAB6928634E1300650CD1 /* Music-app-pocTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Music-app-pocTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41DFAB6D28634E1300650CD1 /* Music_app_pocTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music_app_pocTests.swift; sourceTree = "<group>"; };
+		41DFAB7328634E1300650CD1 /* Music-app-pocUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Music-app-pocUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41DFAB7728634E1300650CD1 /* Music_app_pocUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music_app_pocUITests.swift; sourceTree = "<group>"; };
+		41DFAB7928634E1300650CD1 /* Music_app_pocUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music_app_pocUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41DFAB4C28634E0900650CD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41DFAB6628634E1300650CD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41DFAB7028634E1300650CD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41DFAB3928634DF900650CD1 = {
+			isa = PBXGroup;
+			children = (
+				41DFAB4828634DFA00650CD1 /* Music-app-poc WatchKit App */,
+				41DFAB5328634E0900650CD1 /* Music-app-poc WatchKit Extension */,
+				41DFAB6C28634E1300650CD1 /* Music-app-pocTests */,
+				41DFAB7628634E1300650CD1 /* Music-app-pocUITests */,
+				41DFAB4128634DF900650CD1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41DFAB4128634DF900650CD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41DFAB4028634DF900650CD1 /* Music-app-poc.app */,
+				41DFAB4428634DFA00650CD1 /* Music-app-poc WatchKit App.app */,
+				41DFAB4F28634E0900650CD1 /* Music-app-poc WatchKit Extension.appex */,
+				41DFAB6928634E1300650CD1 /* Music-app-pocTests.xctest */,
+				41DFAB7328634E1300650CD1 /* Music-app-pocUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41DFAB4828634DFA00650CD1 /* Music-app-poc WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				41DFAB4928634E0800650CD1 /* Assets.xcassets */,
+			);
+			path = "Music-app-poc WatchKit App";
+			sourceTree = "<group>";
+		};
+		41DFAB5328634E0900650CD1 /* Music-app-poc WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				41DFAB5428634E0900650CD1 /* Music_app_pocApp.swift */,
+				41DFAB5628634E0900650CD1 /* ContentView.swift */,
+				41DFAB5828634E0900650CD1 /* NotificationController.swift */,
+				41DFAB5A28634E0900650CD1 /* NotificationView.swift */,
+				41DFAB5C28634E0900650CD1 /* ComplicationController.swift */,
+				41DFAB5E28634E1300650CD1 /* Assets.xcassets */,
+				41DFAB6328634E1300650CD1 /* Info.plist */,
+				41DFAB6428634E1300650CD1 /* PushNotificationPayload.apns */,
+				41DFAB6028634E1300650CD1 /* Preview Content */,
+			);
+			path = "Music-app-poc WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		41DFAB6028634E1300650CD1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				41DFAB6128634E1300650CD1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		41DFAB6C28634E1300650CD1 /* Music-app-pocTests */ = {
+			isa = PBXGroup;
+			children = (
+				41DFAB6D28634E1300650CD1 /* Music_app_pocTests.swift */,
+			);
+			path = "Music-app-pocTests";
+			sourceTree = "<group>";
+		};
+		41DFAB7628634E1300650CD1 /* Music-app-pocUITests */ = {
+			isa = PBXGroup;
+			children = (
+				41DFAB7728634E1300650CD1 /* Music_app_pocUITests.swift */,
+				41DFAB7928634E1300650CD1 /* Music_app_pocUITestsLaunchTests.swift */,
+			);
+			path = "Music-app-pocUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41DFAB3F28634DF900650CD1 /* Music-app-poc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41DFAB8528634E1300650CD1 /* Build configuration list for PBXNativeTarget "Music-app-poc" */;
+			buildPhases = (
+				41DFAB3E28634DF900650CD1 /* Resources */,
+				41DFAB8428634E1300650CD1 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41DFAB4728634DFA00650CD1 /* PBXTargetDependency */,
+			);
+			name = "Music-app-poc";
+			productName = "Music-app-poc";
+			productReference = 41DFAB4028634DF900650CD1 /* Music-app-poc.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		41DFAB4328634DFA00650CD1 /* Music-app-poc WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41DFAB8128634E1300650CD1 /* Build configuration list for PBXNativeTarget "Music-app-poc WatchKit App" */;
+			buildPhases = (
+				41DFAB4228634DFA00650CD1 /* Resources */,
+				41DFAB8028634E1300650CD1 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41DFAB5228634E0900650CD1 /* PBXTargetDependency */,
+			);
+			name = "Music-app-poc WatchKit App";
+			productName = "Music-app-poc WatchKit App";
+			productReference = 41DFAB4428634DFA00650CD1 /* Music-app-poc WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		41DFAB4E28634E0900650CD1 /* Music-app-poc WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41DFAB7D28634E1300650CD1 /* Build configuration list for PBXNativeTarget "Music-app-poc WatchKit Extension" */;
+			buildPhases = (
+				41DFAB4B28634E0900650CD1 /* Sources */,
+				41DFAB4C28634E0900650CD1 /* Frameworks */,
+				41DFAB4D28634E0900650CD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Music-app-poc WatchKit Extension";
+			productName = "Music-app-poc WatchKit Extension";
+			productReference = 41DFAB4F28634E0900650CD1 /* Music-app-poc WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		41DFAB6828634E1300650CD1 /* Music-app-pocTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41DFAB8828634E1300650CD1 /* Build configuration list for PBXNativeTarget "Music-app-pocTests" */;
+			buildPhases = (
+				41DFAB6528634E1300650CD1 /* Sources */,
+				41DFAB6628634E1300650CD1 /* Frameworks */,
+				41DFAB6728634E1300650CD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41DFAB6B28634E1300650CD1 /* PBXTargetDependency */,
+			);
+			name = "Music-app-pocTests";
+			productName = "Music-app-pocTests";
+			productReference = 41DFAB6928634E1300650CD1 /* Music-app-pocTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		41DFAB7228634E1300650CD1 /* Music-app-pocUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41DFAB8B28634E1300650CD1 /* Build configuration list for PBXNativeTarget "Music-app-pocUITests" */;
+			buildPhases = (
+				41DFAB6F28634E1300650CD1 /* Sources */,
+				41DFAB7028634E1300650CD1 /* Frameworks */,
+				41DFAB7128634E1300650CD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41DFAB7528634E1300650CD1 /* PBXTargetDependency */,
+			);
+			name = "Music-app-pocUITests";
+			productName = "Music-app-pocUITests";
+			productReference = 41DFAB7328634E1300650CD1 /* Music-app-pocUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41DFAB3A28634DF900650CD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					41DFAB3F28634DF900650CD1 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					41DFAB4328634DFA00650CD1 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					41DFAB4E28634E0900650CD1 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					41DFAB6828634E1300650CD1 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 41DFAB4E28634E0900650CD1;
+					};
+					41DFAB7228634E1300650CD1 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 41DFAB4328634DFA00650CD1;
+					};
+				};
+			};
+			buildConfigurationList = 41DFAB3D28634DF900650CD1 /* Build configuration list for PBXProject "Music-app-poc" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41DFAB3928634DF900650CD1;
+			productRefGroup = 41DFAB4128634DF900650CD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41DFAB3F28634DF900650CD1 /* Music-app-poc */,
+				41DFAB4328634DFA00650CD1 /* Music-app-poc WatchKit App */,
+				41DFAB4E28634E0900650CD1 /* Music-app-poc WatchKit Extension */,
+				41DFAB6828634E1300650CD1 /* Music-app-pocTests */,
+				41DFAB7228634E1300650CD1 /* Music-app-pocUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41DFAB3E28634DF900650CD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41DFAB4228634DFA00650CD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41DFAB4A28634E0800650CD1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41DFAB4D28634E0900650CD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41DFAB6228634E1300650CD1 /* Preview Assets.xcassets in Resources */,
+				41DFAB5F28634E1300650CD1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41DFAB6728634E1300650CD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41DFAB7128634E1300650CD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41DFAB4B28634E0900650CD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41DFAB5928634E0900650CD1 /* NotificationController.swift in Sources */,
+				41DFAB5728634E0900650CD1 /* ContentView.swift in Sources */,
+				41DFAB5D28634E0900650CD1 /* ComplicationController.swift in Sources */,
+				41DFAB5528634E0900650CD1 /* Music_app_pocApp.swift in Sources */,
+				41DFAB5B28634E0900650CD1 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41DFAB6528634E1300650CD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41DFAB6E28634E1300650CD1 /* Music_app_pocTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41DFAB6F28634E1300650CD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41DFAB7828634E1300650CD1 /* Music_app_pocUITests.swift in Sources */,
+				41DFAB7A28634E1300650CD1 /* Music_app_pocUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41DFAB4728634DFA00650CD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41DFAB4328634DFA00650CD1 /* Music-app-poc WatchKit App */;
+			targetProxy = 41DFAB4628634DFA00650CD1 /* PBXContainerItemProxy */;
+		};
+		41DFAB5228634E0900650CD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41DFAB4E28634E0900650CD1 /* Music-app-poc WatchKit Extension */;
+			targetProxy = 41DFAB5128634E0900650CD1 /* PBXContainerItemProxy */;
+		};
+		41DFAB6B28634E1300650CD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41DFAB4E28634E0900650CD1 /* Music-app-poc WatchKit Extension */;
+			targetProxy = 41DFAB6A28634E1300650CD1 /* PBXContainerItemProxy */;
+		};
+		41DFAB7528634E1300650CD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41DFAB4328634DFA00650CD1 /* Music-app-poc WatchKit App */;
+			targetProxy = 41DFAB7428634E1300650CD1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		41DFAB7B28634E1300650CD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		41DFAB7C28634E1300650CD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41DFAB7E28634E1300650CD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Music-app-poc WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 5G8HHZTV2M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Music-app-poc WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Music-app-poc WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "poc.Music-app-poc.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		41DFAB7F28634E1300650CD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Music-app-poc WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 5G8HHZTV2M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Music-app-poc WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Music-app-poc WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "poc.Music-app-poc.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		41DFAB8228634E1300650CD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5G8HHZTV2M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Music_app_poc_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Music-app-poc WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "poc.Music-app-poc.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		41DFAB8328634E1300650CD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5G8HHZTV2M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Music_app_poc_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Music-app-poc WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "poc.Music-app-poc.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		41DFAB8628634E1300650CD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5G8HHZTV2M;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "poc.Music-app-poc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		41DFAB8728634E1300650CD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5G8HHZTV2M;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "poc.Music-app-poc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		41DFAB8928634E1300650CD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5G8HHZTV2M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "poc.Music-app-pocTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Music-app-poc WatchKit Extension.appex/Music-app-poc WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		41DFAB8A28634E1300650CD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5G8HHZTV2M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "poc.Music-app-pocTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Music-app-poc WatchKit Extension.appex/Music-app-poc WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		41DFAB8C28634E1300650CD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5G8HHZTV2M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "poc.Music-app-pocUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Music-app-poc WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		41DFAB8D28634E1300650CD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5G8HHZTV2M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "poc.Music-app-pocUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Music-app-poc WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41DFAB3D28634DF900650CD1 /* Build configuration list for PBXProject "Music-app-poc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41DFAB7B28634E1300650CD1 /* Debug */,
+				41DFAB7C28634E1300650CD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41DFAB7D28634E1300650CD1 /* Build configuration list for PBXNativeTarget "Music-app-poc WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41DFAB7E28634E1300650CD1 /* Debug */,
+				41DFAB7F28634E1300650CD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41DFAB8128634E1300650CD1 /* Build configuration list for PBXNativeTarget "Music-app-poc WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41DFAB8228634E1300650CD1 /* Debug */,
+				41DFAB8328634E1300650CD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41DFAB8528634E1300650CD1 /* Build configuration list for PBXNativeTarget "Music-app-poc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41DFAB8628634E1300650CD1 /* Debug */,
+				41DFAB8728634E1300650CD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41DFAB8828634E1300650CD1 /* Build configuration list for PBXNativeTarget "Music-app-pocTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41DFAB8928634E1300650CD1 /* Debug */,
+				41DFAB8A28634E1300650CD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41DFAB8B28634E1300650CD1 /* Build configuration list for PBXNativeTarget "Music-app-pocUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41DFAB8C28634E1300650CD1 /* Debug */,
+				41DFAB8D28634E1300650CD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41DFAB3A28634DF900650CD1 /* Project object */;
+}
